@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body{
+    background-color: #cbd2da;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#relogio{
+    background-color: #b54747;
+    width: 800px;
+    height: 250px;
+    border: solid 1px #b54747;
+    border-radius: 32px;
+    margin-top: 180px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#display{
+    width: 720px;
+    height: 180px;
+    border: solid 1px #020202;
+    border-radius: 16px;
+    background-color: #020202;
+
+    align-self: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+
+    
+}
+
+#data{
+    font-size: 32px;
+    font-family: 'Orbitron', sans-serif;
+    color: #14f344;
+    margin: 0;
+    align-self: flex-end;
+    
+}
+
+#hora{
+    font-size: 120px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    color: #14f344;
+    margin: 0;
+}
+
+#hora span{
+    font-size: 60px;
+}
