@@ -1,1 +1,1 @@
-clockBr = new ClockController()
+window.clockBr = new ClockController()
